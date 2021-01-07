@@ -1,3 +1,4 @@
 # Exercisesjs
-2. écrire une fonction qui affiche tous les entiers de 0 à la valeur de la variable 
-passée en paramètre et retourne 'true'. Prototype : function print_until(max)
+1. écrie une fonction qui affiche ‘Site interdit aux mineurs.’ 
+si la variable passée en paramètre est inférieure à 18, ou ‘Vous pouvez 
+entrer !’ si elle supérieure ou égale à 18.*/
