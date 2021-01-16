@@ -14,13 +14,14 @@ function is_similar(a,b){
     // Si les variables ont le même type, elle affiche "Same type.".
     } else if (a.constructor==b.constructor){
         return "same type."
+    
     // Sinon elle affiche "They are different. "
     } else {
         return "They are different.";
     }
 }
-console.log(is_similar(5, 5));
-console.log(is_similar(32, "32"));
-console.log(is_similar(49, 56));
-console.log(is_similar("x", 5));
+console.log(is_similar(5, 5)); // "Same type and value.""
+console.log(is_similar(32, "32")); // "Same value."
+console.log(is_similar(49, 56)); // "Same type."
+console.log(is_similar("x", 5)); // "They are different"
 
