@@ -8,5 +8,5 @@ function print_until(max=null){
     }
     return true;
 }
-print_until();
+print_until(); // 0
 
