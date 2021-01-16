@@ -12,14 +12,14 @@ entrer !’ si elle supérieure ou égale à 18.*/
 
 function checkAge(age) {
     if (age <18){
-    return "Site interdit aux mineurs";
+    return "Site interdit aux mineurs !";
     } else {
     return "Vous pouvez entrer !";
     }
     
     }
-    console.log(checkAge());
-    console.log(checkAge(10));
-    console.log(checkAge("10"));
-    console.log(checkAge(18));
-    console.log(checkAge(19));
+    console.log(checkAge()); // "Vous pouvez entrer !""
+    console.log(checkAge(10)); // "Site interdit aux mineurs !"
+    console.log(checkAge("10")); // "Site interdit aux mineurs !"
+    console.log(checkAge(18)); // "Vous pouvez entrer !""
+    console.log(checkAge(19)); // "Vous pouvez entrer !""
